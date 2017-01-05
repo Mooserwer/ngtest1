@@ -185,15 +185,9 @@ img { max-width: 100%; }
 	h1, h2 { font-size: 32px; }
 
 }
-
-
-.cont-top-right {float: right;width: 30%;padding-top: 5px;font-size: 66px;color: #111;line-height: 100px;text-align: left;}
-.locale-en{background-image: url('/_IMAGES/FLAGS/flags-en.png');background-position: -1px -1px;background-repeat: no-repeat;background-size: 31px 23px;padding-left: 34px;color: #000;}
-.locale-ko{background-image: url('/_IMAGES/FLAGS/flags-ko.png');background-position: -1px -1px;background-repeat: no-repeat;background-size: 31px 23px;padding-left: 34px;color: #000;}
 button.cs-login {padding: 0 20px;background: #572525;border: 0;font-size: 20px;font-weight: 300;line-height: 50px;color: #fff;-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;text-shadow: none;-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;}
 button.cs-login:hover { background: #4C1919; color: #fff; }
 button.cs-login:active { outline: 0; color: #fff; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
 button.cs-login:focus { outline: 0; background: #491414; color: #fff; }
 button.cs-login:active:focus, button.cs-login.active:focus { outline: 0; background: #491414; color: #fff; }
 label.white{color:#fff;}
-.savefrm {display:none;}

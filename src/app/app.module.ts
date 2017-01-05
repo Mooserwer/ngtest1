@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login.component';
 import { LogoComponent } from './logo.component';
+import { LocaleComponent } from './locale.component';
 
 
 @NgModule({
   declarations: [
     LoginComponent,
-    LogoComponent
+    LogoComponent,
+    LocaleComponent
   ],
   imports: [
     BrowserModule,
