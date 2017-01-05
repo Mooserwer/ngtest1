@@ -1,0 +1,41 @@
+<div class="top-content">
+  <unico-logo></unico-logo>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text">
+          <h1><strong>{{title}}</strong></h1>
+          <div class="description">
+            <p>테스트</p>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 form-box">
+        <div class="form-top">
+          <div class="form-top-left">
+            <h3>{{TXT_LOGIN}}</h3>
+            <p class="small">{{TXT_LOGIN_INFO}}</p>
+          </div>
+        </div>
+        <div class="form-bottom">
+          <form role="form" action="" method="post" class="login-form">
+            <input type="hidden" name="form_next_page" value="{{next_page}}">
+            <div class="form-group">
+              <label class="sr-only" for="form_user_id">{{TXT_ID}}</label>
+              <input type="text" name="form_user_id" placeholder="{{TXT_ID}}..." class="form-username form-control" id="form_user_id" value="{{txt_user_id}}">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="form_user_pw">{{TXT_PW}}</label>
+              <input type="password" name="form_user_pw" placeholder="{{TXT_PW}}..." class="form-password form-control" id="form_user_pw">
+            </div>
+            <div class="form-group">
+              <input type="checkbox" name="form_remember_me" id="form_remember_me" value="Y" >
+              <label class="white" for="form_remember_me">{{TXT_REMEMBERME}}</label>
+            </div>
+            <button type="submit" class="btn cs-login">{{TXT_LOGIN}}!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
