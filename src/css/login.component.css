@@ -1,13 +1,17 @@
 
 
-body {
+:host(body){
     font-family: '나눔고딕', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #888;
     line-height: 30px;
     text-align: center;
-}
+    background: url(../images/background/login_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
 
 strong { font-weight: 500; }
 

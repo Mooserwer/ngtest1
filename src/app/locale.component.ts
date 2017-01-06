@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'unico-locale',
+  selector: 'my-locale-btn',
   template:`<div class="cont-top-right">
               <button class="btn btn-default btn-xs locale-en" onclick="javascript:setLocale('en');">English</button>
             </div>`,
